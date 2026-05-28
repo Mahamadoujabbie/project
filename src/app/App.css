@@ -300,7 +300,41 @@
 
   .main-content nav {
     flex-wrap: nowrap;
-    padding: 5px;
+    padding: 8px;
+    gap: 8px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .logCode {
+    flex-shrink: 0;
+    gap: 5px;
+    white-space: nowrap;
+  }
+
+  .logCode li {
+    white-space: nowrap;
+  }
+
+  .nav-menu-trigger {
+    flex-shrink: 0;
+    white-space: nowrap;
+    font-size: 0.85rem;
+  }
+
+  .nav-list {
+    flex-shrink: 0;
+  }
+
+  .logs {
+    flex-shrink: 0;
+    gap: 8px;
+    white-space: nowrap;
+  }
+
+  .logs li {
+    white-space: nowrap;
+    font-size: 0.85rem;
   }
 
   .main-heading {
@@ -319,6 +353,18 @@
   .nav-2 {
     flex-wrap: nowrap;
     overflow-x: auto;
+    gap: 8px;
+  }
+
+  .nav-2 .logCode {
+    flex-shrink: 0;
+    gap: 5px;
+    white-space: nowrap;
+  }
+
+  .nav-2 .logCode li {
+    white-space: nowrap;
+    font-size: 0.85rem;
   }
 
   .boxes {
@@ -352,14 +398,9 @@
     font-size: 0.9rem;
   }
 
-  .logs {
-    gap: 10px;
-    font-size: 0.9rem;
-  }
-
   #get-start {
     padding: 6px 12px;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
 
   .demo {
@@ -369,6 +410,6 @@
   }
 
   .code {
-    width: 35px;
+    width: 32px;
   }
 }
