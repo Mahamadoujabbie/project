@@ -2,6 +2,13 @@ import "./App.css";
 import { MdExpandMore } from "react-icons/md";
 import { useState } from "react";
 import { MdOutlineExpandLess } from "react-icons/md";
+import codebyht from "./assets/codebyht.jpeg";
+import pp from "./assets/pp.jpeg";
+import graph from "./assets/graph.jpeg";
+import house from "./assets/house.jpeg";
+import sound from "./assets/sound.jpeg";
+import plus from "./assets/plus.jpeg";
+import profile from "./assets/profile.jpeg";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +18,7 @@ function App() {
         <main className="main">
           <nav className="nav">
             <ul className="logCode">
-              <img className="code" src="/src/assets/codebyht.jpeg" alt="" />
+              <img className="code" src={codebyht} alt="" />
               <li>CodeByHeart</li>
             </ul>
             <div className="nav-menu-trigger">
@@ -75,36 +82,28 @@ function App() {
                 <li className="middle-items">Kapet</li>
               </ul>
               <ul className="logCode">
-                <img className="code" src="/src/assets/pp.jpeg" alt="" />
+                <img className="code" src={pp} alt="" />
                 <li>maha</li>
               </ul>
             </nav>
             <div className="boxes">
               <ul className="box">
-                <img className="img" src="/src/assets/graph.jpeg" alt="" />
+                <img className="img" src={graph} alt="" />
               </ul>
               <ul id="box-2" className="box">
-                <img className="img" src="/src/assets/house.jpeg" alt="" />
+                <img className="img" src={house} alt="" />
               </ul>
               <ul>
                 <div className="box-3-4">
                   <li className="box-3">
-                    <img
-                      className="img-3"
-                      src="/src/assets/sound.jpeg"
-                      alt=""
-                    />
+                    <img className="img-3" src={sound} alt="" />
                   </li>
                   <li className="box-3">
-                    <img className="box-3" src="/src/assets/plus.jpeg" alt="" />
+                    <img className="box-3" src={plus} alt="" />
                   </li>
                 </div>
                 <div className="box-5">
-                  <img
-                    className="img-5"
-                    src="/src/assets/profile.jpeg"
-                    alt=""
-                  />
+                  <img className="img-5" src={profile} alt="" />
                 </div>
               </ul>
             </div>
