@@ -285,3 +285,90 @@
   color: orange;
   cursor: pointer;
 }
+
+/* Mobile/Small Screen Adjustments */
+@media (max-width: 600px) {
+  .app-container {
+    padding: 5px;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .main {
+    padding: 10px;
+  }
+
+  .main-content nav {
+    flex-wrap: nowrap;
+    padding: 5px;
+  }
+
+  .main-heading {
+    padding-top: 20px;
+  }
+
+  .main-heading h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .main-heading h5 {
+    font-size: 0.9rem;
+  }
+
+  .nav-2 {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .boxes {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 5px;
+  }
+
+  .box {
+    width: 37%;
+    min-width: 37%;
+    flex-shrink: 0;
+  }
+
+  .box-3-4 {
+    min-width: 100%;
+    flex-shrink: 0;
+  }
+
+  .box-5 {
+    min-width: 100%;
+    flex-shrink: 0;
+  }
+
+  .nav-list-2 {
+    gap: 10px;
+  }
+
+  .middle-items {
+    width: 45px;
+    font-size: 0.9rem;
+  }
+
+  .logs {
+    gap: 10px;
+    font-size: 0.9rem;
+  }
+
+  #get-start {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+  }
+
+  .demo {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    margin: 15px;
+  }
+
+  .code {
+    width: 35px;
+  }
+}
