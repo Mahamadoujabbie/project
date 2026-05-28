@@ -2,13 +2,13 @@ import "./App.css";
 import { MdExpandMore } from "react-icons/md";
 import { useState } from "react";
 import { MdOutlineExpandLess } from "react-icons/md";
-import codebyht from "./assets/codebyht.jpeg";
-import pp from "./assets/pp.jpeg";
-import graph from "./assets/graph.jpeg";
-import house from "./assets/house.jpeg";
-import sound from "./assets/sound.jpeg";
-import plus from "./assets/plus.jpeg";
-import profile from "./assets/profile.jpeg";
+import codebyht from "../assets/codebyht.jpeg";
+import pp from "../assets/pp.jpeg";
+import graph from "../assets/graph.jpeg";
+import house from "../assets/house.jpeg";
+import sound from "../assets/sound.jpeg";
+import plus from "../assets/plus.jpeg";
+import profile from "../assets/profile.jpeg";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
