@@ -300,7 +300,7 @@
     flex-wrap: nowrap;
     padding: 8px;
     gap: 8px;
-    overflow-x: auto;
+    overflow: visible;
     white-space: nowrap;
   }
 
@@ -318,6 +318,15 @@
     flex-shrink: 0;
     white-space: nowrap;
     font-size: 0.85rem;
+  }
+
+  .nav-dropdown {
+    left: auto;
+    right: 0;
+    transform: none;
+    top: calc(100% + 6px);
+    min-width: min(220px, calc(100vw - 24px));
+    z-index: 1000;
   }
 
   .nav-list {
