@@ -6,7 +6,6 @@
 
 .app-container {
   display: flex;
-  background-color: lightblue;
   height: 100vh;
   padding: 10px;
   list-style-type: none;
@@ -14,7 +13,6 @@
 }
 .nav {
   width: 100%;
-  background-color: green;
 }
 
 .main-content {
